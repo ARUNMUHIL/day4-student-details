@@ -1,0 +1,7 @@
+name=input("enter your name:")
+age=int(input("enter your age:"))
+salary=int(input("enter your salary:"))
+if(salary>=20000 or age>=25):
+    print(name,"You are eligible")
+else:
+    print(name,"sorry you are not eligible")
